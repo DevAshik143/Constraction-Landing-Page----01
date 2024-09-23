@@ -1,0 +1,171 @@
+@media all and (max-width:920px) {
+
+	#menu {
+		display: none;
+	}
+
+	#openmenu {
+		display: inline-block;
+	}
+
+	.top-header {
+		display: none;
+	}
+
+	.wrapper-menu {
+		position: fixed;
+		bottom: auto;
+		left: 0%;
+		top: 0;
+		-webkit-transform: translate(0%, 0%);
+		-ms-transform: translate(0%, 0%);
+		transform: translate(0%, 0%);
+		z-index: 10000;
+	}
+
+	.wrapper-edge {
+		position: static;
+		-webkit-transform: translate(0%, 0%);
+		-ms-transform: translate(0%, 0%);
+		transform: translate(0%, 0%);
+		padding: 0px;
+		padding-bottom: 100px;
+	}
+
+	.single-edge {
+		width: 50%;
+	}
+
+	.wrapper-about-container {
+		padding-top: 0;
+	}
+
+	.wrapper-about {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+
+	.wrapper-img-title,
+	.wrapper-about-content {
+		width: 100%;
+	}
+
+	.single-services,
+	.single-projects {
+		width: calc(50% - 20px);
+	}
+
+
+	.skills-content {
+		padding-right: 0px;
+		border-right: none;
+	}
+
+	.skills-progress {
+		margin-top: 50px;
+		padding-left: 0px;
+	}
+
+	.consultation-content,
+	.consultation-working-hours,
+	.skills-content,
+	.skills-progress {
+		width: 100%;
+	}
+
+	.consultation-working-hours {
+		padding-right: 0px;
+		padding-left: 0px;
+		padding-top: 0px;
+	}
+
+	.wrapper-contacts>div {
+		width: 50%;
+	}
+
+	#wrapper-mobile-menu {
+		display: block;
+		position: fixed;
+		top: 0;
+		left: -320px;
+		width: 320px;
+		padding: 15px 30px;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		height: 100vh;
+		background-color: #212121;
+		overflow: auto;
+		z-index: 100000;
+	}
+
+	.mobile-menu {
+		clear: both;
+	}
+
+	.mobile-menu li {
+		margin-bottom: 20px;
+	}
+
+	.mobile-menu li a {
+		text-transform: uppercase;
+		text-decoration: none;
+		font-weight: 700;
+		color: #ffffff;
+		-webkit-transition: all;
+		-o-transition: all;
+		transition: all;
+		-webkit-transition-duration: 0.5s;
+		-o-transition-duration: 0.5s;
+		transition-duration: 0.5s;
+	}
+
+	.mobile-menu li a:hover {
+		color: #FFC107;
+	}
+
+	#closemenu {
+		text-decoration: none;
+		font-weight: 700;
+		color: #ffffff;
+		font-size: 35px;
+		-webkit-transition: all;
+		-o-transition: all;
+		transition: all;
+		-webkit-transition-duration: 0.5s;
+		-o-transition-duration: 0.5s;
+		transition-duration: 0.5s;
+		margin-bottom: 20px;
+		margin-top: 5px;
+		display: inline-block;
+		float: right;
+	}
+
+	#closemenu:hover {
+		color: #FFC107;
+	}
+}
+
+@media all and (max-width:600px) {
+
+	.single-edge,
+	.wrapper-input p,
+	.wrapper-contacts>div {
+		width: 100%;
+	}
+
+	.single-services,
+	.single-projects {
+		width: calc(100% - 20px);
+	}
+
+}
+
+@media all and (max-width:500px) {
+	.header-content h1 {
+		font-size: 70px;
+	}
+
+	h2 {
+		font-size: 45px;
+	}
+}
